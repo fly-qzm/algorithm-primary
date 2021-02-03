@@ -1,5 +1,8 @@
 package class01;
 
+/**
+ * 整数转二进制
+ */
 public class Code01_PrintBinary {
 
 	public static void print(int num) {
@@ -10,7 +13,7 @@ public class Code01_PrintBinary {
 	}
 
 	public static void main(String[] args) {
-		// 32位
+		// 32位 4byte
 //		int num = 4;
 //
 //		print(num);
@@ -25,7 +28,8 @@ public class Code01_PrintBinary {
 //		
 //		int a = Integer.MAX_VALUE;
 //		System.out.println(a);
-
+//		print(a);
+//
 //		print(-1);
 //		int a = Integer.MIN_VALUE;
 //		print(a);
@@ -34,9 +38,9 @@ public class Code01_PrintBinary {
 //		int c = ~b;
 //		print(b);
 //		print(c);
-
+//
 //		print(-5);
-
+//
 //		System.out.println(Integer.MIN_VALUE);
 //		System.out.println(Integer.MAX_VALUE);
 
@@ -49,16 +53,16 @@ public class Code01_PrintBinary {
 //		print(a & b);
 //		print(a ^ b);
 
-//		int a = Integer.MIN_VALUE;
-//		print(a);
-//		print(a >> 1);
-//		print(a >>> 1);
-//		
-//		int c = Integer.MIN_VALUE;
-//		int d = -c ;
-//		
-//		print(c);
-//		print(d);
+		int a = Integer.MIN_VALUE;
+		print(a);
+		print(a >> 1);
+		print(a >>> 1);//无符号右移
+
+		int c = Integer.MIN_VALUE;
+		int d = -c ;
+
+		print(c);
+		print(d);
 
 	}
 

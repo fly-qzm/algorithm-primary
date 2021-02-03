@@ -151,7 +151,8 @@ public class Code02_RandToRand {
 			}
 		}
 		System.out.println((double) count / (double) testTimes);
-		System.out.println((double) 1 - Math.pow((double) 1 - x, 2));
+		//System.out.println((double) 1 - Math.pow((double) 1 - x, 2));
+		System.out.println(Math.pow(x, 2));
 
 		System.out.println("==========");
 		count = 0;
@@ -178,7 +179,7 @@ public class Code02_RandToRand {
 	// 返回[0,1)的一个小数
 	// 任意的x，x属于[0,1)，[0,x)范围上的数出现概率由原来的x调整成x平方
 	public static double xToXPower2() {
-		return Math.min(Math.random(), Math.random());
+		return Math.max(Math.random(), Math.random());
 	}
 
 	// lib里的，不能改！
