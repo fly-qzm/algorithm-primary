@@ -1,5 +1,8 @@
 package class02;
 
+/**
+ * 前缀和数组
+ */
 public class Code01_PreSum {
 
 	public static class RangeSum1 {
@@ -20,6 +23,9 @@ public class Code01_PreSum {
 
 	}
 
+	/**
+	 * 前缀和
+	 */
 	public static class RangeSum2 {
 
 		private int[] preSum;

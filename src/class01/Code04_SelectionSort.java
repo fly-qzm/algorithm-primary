@@ -37,7 +37,7 @@ public class Code04_SelectionSort {
 		// (int)(Math.random() * N) [0, N-1]
 		int[] arr = new int[(int) ((maxSize + 1) * Math.random())];
 		for (int i = 0; i < arr.length; i++) {
-			// [-? , +?]
+			// [-? , +?]    [0,N]-[0,N-1]===>[-N+1,N]
 			arr[i] = (int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random());
 		}
 		return arr;

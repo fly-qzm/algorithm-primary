@@ -67,6 +67,14 @@ public class Code03_Comp {
 		return true;
 	}
 
+	public static void print(int[] arr){
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+
+	}
+
 	public static void main(String[] args) {
 		int maxLen = 5;
 		int maxValue = 1000;
@@ -75,6 +83,7 @@ public class Code03_Comp {
 			int[] arr1 = lenRandomValueRandom(maxLen, maxValue);
 			int[] tmp = copyArray(arr1);
 			selectionSort(arr1);
+			print(arr1);
 			if (!isSorted(arr1)) {
 				for (int j = 0; j < tmp.length; j++) {
 					System.out.print(tmp[j] + " ");

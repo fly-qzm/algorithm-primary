@@ -210,7 +210,7 @@ public class Code02_RandToRand {
 		} while (ans == 7);
 		return ans;
 	}
-
+	// 等概率返回1 ~ 7
 	public static int g() {
 		return f4() + 1;
 	}
